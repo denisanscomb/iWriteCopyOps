@@ -1,3 +1,8 @@
+// SHEET IDS
+
+// Robustified Index Master: 1sEjzhq96me6aaQLIBqY6Wfgy9D6VrKhtHL9eUoqyT2Q
+// Test Rig iQA: 1-5Vf4LbGOI29eVabBluk8WoHg5-8qJkzhgazLdLtVDE
+
 
 
 function myCopyOps() {
@@ -15,7 +20,7 @@ function myCopyOps() {
   
 var print = 2
   
-  for (var c = 0; c< 1990; c++){
+  for (var c = 0; c< 1990; c++){ // adding the archived copy library
     
     if(ePfull[c][51] == "Archive"){
       

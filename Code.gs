@@ -55,7 +55,7 @@ var print = 2
     var cGreet = dArray[i-3][2];
     var cHead = dArray[i-4][2];
     var cBody = dArray[i-2][2]; // picking up the key variables; ID, Header, Greeting and Body
-    
+    var cNote = dArray[i-5][1]; // allowing the copywriters to edit the Notes
       
      
       Logger.log(eID);
@@ -67,6 +67,7 @@ var print = 2
       rec.getRange(eID+2,34).setValue(cGreet);
       rec.getRange(eID+2,35).setValue(cBody);
       rec.getRange(eID+2,32).setValue("Drafted"); // writing to the master database
+      rec.getRange(eID+2,14).setValue(cNote); // the old, or new, draft of the Event Note
       
       var converter1 = i/10;
       var c3 = parseInt(converter1);
